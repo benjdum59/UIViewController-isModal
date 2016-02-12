@@ -1,9 +1,9 @@
 # isModal
 
-[![CI Status](http://img.shields.io/travis/benjamindum/isModal.svg?style=flat)](https://travis-ci.org/benjamindum/isModal)
-[![Version](https://img.shields.io/cocoapods/v/isModal.svg?style=flat)](http://cocoapods.org/pods/isModal)
-[![License](https://img.shields.io/cocoapods/l/isModal.svg?style=flat)](http://cocoapods.org/pods/isModal)
-[![Platform](https://img.shields.io/cocoapods/p/isModal.svg?style=flat)](http://cocoapods.org/pods/isModal)
+[![CI Status](http://img.shields.io/travis/benjamindum/isModal.svg?style=flat)](https://travis-ci.org/benjdum59/UIViewController+isModal)
+[![Version](https://img.shields.io/cocoapods/v/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)
+[![License](https://img.shields.io/cocoapods/l/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)
+[![Platform](https://img.shields.io/cocoapods/p/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)
 
 ## Usage
 

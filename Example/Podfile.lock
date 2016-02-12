@@ -1,0 +1,14 @@
+PODS:
+  - isModal (0.1.0)
+
+DEPENDENCIES:
+  - isModal (from `../`)
+
+EXTERNAL SOURCES:
+  isModal:
+    :path: ../
+
+SPEC CHECKSUMS:
+  isModal: 85377877751f15bfa69de98aa9423840bee9540e
+
+COCOAPODS: 0.39.0

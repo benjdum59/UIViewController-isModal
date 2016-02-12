@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+"Simple extension to determine if presented UIViewController is modal"
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/isModal"
+  s.homepage         = "https://github.com/benjdum59/UIVIewController-isModal"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "benjdum59" => "benjdum59@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/isModal.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/benjdum59/UIViewController-isModal.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

@@ -1,15 +1,15 @@
 {
-  "name": "isModal",
+  "name": "UIViewController+isModal",
   "version": "0.1.0",
-  "summary": "A short description of isModal.",
+  "summary": "An extension to know is current UIViewController is modal",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/isModal",
+  "homepage": "https://github.com/benjdum59/UIViewController-isModal",
   "license": "MIT",
   "authors": {
-    "benjamindum": "benjamin.dumont@ineat-conseil.fr"
+    "benjdum59": "benjdum59@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/isModal.git",
+    "git": "https://github.com/benjdum59/UIViewController-isModal.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+This simple extension provides a way to determine if current UIViewController is modal
+```swift
+UIViewController.isModal
+```
+
 ## Requirements
 
 ## Installation

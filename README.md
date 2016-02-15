@@ -1,6 +1,6 @@
 # UIViewController+isModal
 
-[![CI Status](http://img.shields.io/travis/benjamindum/isModal.svg?style=flat)](https://travis-ci.org/benjdum59/UIViewController+isModal)
+[![CI Status](http://img.shields.io/travis/benjamindum/isModal.svg?style=flat)](https://travis-ci.org/benjdum59/UIViewController-isModal)
 [![Version](https://img.shields.io/cocoapods/v/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)
 [![License](https://img.shields.io/cocoapods/l/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)
 [![Platform](https://img.shields.io/cocoapods/p/UIViewController+isModal.svg?style=flat)](http://cocoapods.org/pods/UIViewController+isModal)

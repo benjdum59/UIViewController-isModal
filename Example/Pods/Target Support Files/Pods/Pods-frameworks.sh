@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-isModal_Tests/isModal.framework"
+  install_framework "Pods/UIViewController_isModal.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-isModal_Tests/isModal.framework"
+  install_framework "Pods/UIViewController_isModal.framework"
 fi

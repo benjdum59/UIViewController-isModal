@@ -1,14 +1,14 @@
 PODS:
-  - isModal (0.1.0)
+  - UIViewController+isModal (0.1.0)
 
 DEPENDENCIES:
-  - isModal (from `../`)
+  - UIViewController+isModal (from `../`)
 
 EXTERNAL SOURCES:
-  isModal:
+  UIViewController+isModal:
     :path: ../
 
 SPEC CHECKSUMS:
-  isModal: 85377877751f15bfa69de98aa9423840bee9540e
+  UIViewController+isModal: c0630b7614fc1af5aa01f354bc1de16cc4220677
 
 COCOAPODS: 0.39.0

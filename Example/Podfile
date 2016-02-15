@@ -1,9 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-
-target 'isModal_Tests', :exclusive => true do
-  pod 'isModal', :path => '../'
+pod 'UIViewController+isModal', :path => '../'
 
   
-end

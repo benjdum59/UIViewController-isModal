@@ -1,6 +1,0 @@
-framework module isModal {
-  umbrella header "isModal-umbrella.h"
-
-  export *
-  module * { export * }
-}

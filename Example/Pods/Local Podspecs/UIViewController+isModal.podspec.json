@@ -1,9 +1,9 @@
 {
   "name": "UIViewController+isModal",
   "version": "0.1.0",
-  "summary": "An extension to know is current UIViewController is modal",
-  "description": "",
-  "homepage": "https://github.com/benjdum59/UIViewController-isModal",
+  "summary": "Determine if current UIViewController is modal",
+  "description": "\"Simple extension to determine if presented UIViewController is modal\"",
+  "homepage": "https://github.com/benjdum59/UIVIewController-isModal",
   "license": "MIT",
   "authors": {
     "benjdum59": "benjdum59@gmail.com"

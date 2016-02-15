@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E05139AB55E9D1DCDAEA725D'
-               BlueprintName = 'isModal'
+               BlueprintIdentifier = '7CF0C937A13410394779F1C8'
+               BlueprintName = 'UIViewController+isModal'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'isModal.framework'>
+               BuildableName = 'UIViewController_isModal.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

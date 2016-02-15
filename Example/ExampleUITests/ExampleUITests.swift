@@ -8,6 +8,12 @@
 
 import XCTest
 
+extension XCUIElement{
+    var hidden : Bool {
+        return !(self.exists && self.hittable)
+    }
+}
+
 class ExampleUITests: XCTestCase {
         
     override func setUp() {
@@ -28,9 +34,44 @@ class ExampleUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func test0IsRootViewController() {
+        let app = XCUIApplication()
+        XCTAssert(!app.buttons["Present modally"].hidden)
+        XCTAssert(!app.buttons["Present modally"].hidden)
+    }
+    
+    func testIsModalFalse() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        app.buttons["Show"].tap()
+        XCTAssert(app.staticTexts["FALSE"].exists)
+        XCTAssert(!app.staticTexts["TRUE"].exists)
+        XCTAssert(app.buttons["Close"].hidden)
+
+        let backButton = app.navigationBars["Example.View"].childrenMatchingType(.Button).matchingIdentifier("Back").elementBoundByIndex(0)
+        XCTAssert(backButton.exists)
+        backButton.tap()
+        test0IsRootViewController()
     }
+    
+    func testIsModalTrue() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let app = XCUIApplication()
+        app.buttons["Present modally"].tap()
+        XCTAssert(app.staticTexts["TRUE"].exists)
+        XCTAssert(!app.staticTexts["FALSE"].exists)
+        XCTAssert(!app.buttons["Close"].hidden)
+        let backButton = app.navigationBars["Example.View"].childrenMatchingType(.Button).matchingIdentifier("Back").elementBoundByIndex(0)
+        XCTAssert(!backButton.exists)
+        app.buttons["Close"].tap()
+        test0IsRootViewController()
+
+        
+    }
+    
+
     
 }

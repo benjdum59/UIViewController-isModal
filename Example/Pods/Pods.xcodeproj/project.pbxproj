@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1946DCB55EB49052AC9F24F0E6EC142A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		1F20766BA6E5CB9A074C077FDD441AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2970B96263186FAFBB770F734A31CCDC /* UIViewController+isModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A428FCDCFDA963451F26E04211F51E7F /* UIViewController+isModal-dummy.m */; };
 		2FAB0FF9A898162E60A235EF4EDDE026 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		A58C129A17A71CCB10C5C1344C88B6EC /* UIViewControllerisModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A95F4F689590BAAF4111F55957A9CE /* UIViewControllerisModal.swift */; };
 		BBB05B9BABBB6DF6E2CAF010B437D6AC /* UIViewController+isModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AEAE2394CAD116CED9D6A5D2C4C995 /* UIViewController+isModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B7099879BFCE4B101B96FEA2B332A2 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9AFAFAF332462F3D1F3BBE71CDC004A /* UIViewController+isModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A428FCDCFDA963451F26E04211F51E7F /* UIViewController+isModal-dummy.m */; };
+		E7B75D86DEBF68661F20BB73C1582322 /* UIViewController+isModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92783773256D5E31D509949386F881FF /* UIViewController+isModal.swift */; };
 		EE2A485AD770492AFC843731EB4C244C /* isModal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D364A73630B1B27B11C24F4904F457DB /* isModal.bundle */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +46,7 @@
 		7F125350BAFC16D15C1EBB4364E1ABEC /* UIViewController+isModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+isModal-prefix.pch"; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		92783773256D5E31D509949386F881FF /* UIViewController+isModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+isModal.swift"; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		A428FCDCFDA963451F26E04211F51E7F /* UIViewController+isModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+isModal-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -53,7 +54,6 @@
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0AEAE2394CAD116CED9D6A5D2C4C995 /* UIViewController+isModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+isModal-umbrella.h"; sourceTree = "<group>"; };
 		D364A73630B1B27B11C24F4904F457DB /* isModal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isModal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A95F4F689590BAAF4111F55957A9CE /* UIViewControllerisModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerisModal.swift; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,10 +106,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69A82A9CE2A05E303D5147EF28C18E1F /* Classes */ = {
+		07E5A5539EE68292C87722F6966D2D1E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D5A95F4F689590BAAF4111F55957A9CE /* UIViewControllerisModal.swift */,
+				92783773256D5E31D509949386F881FF /* UIViewController+isModal.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 		FE9AB03B97D5C22A16C95AE1074901CE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				69A82A9CE2A05E303D5147EF28C18E1F /* Classes */,
+				07E5A5539EE68292C87722F6966D2D1E /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E00C9AD408BF6BFF6F17A2D2A3E1E3ED /* Build configuration list for PBXNativeTarget "UIViewController+isModal" */;
 			buildPhases = (
-				66850EB384180E040961F53A63259FD0 /* Sources */,
+				706BEC01B2C48D6CCDAF306B56757A4E /* Sources */,
 				81C92EB8C3B50B8D939FEF4C7380FF63 /* Frameworks */,
 				B2AF4B6D191563E0D42E2F6994FC1A25 /* Resources */,
 				D7845A284F231EE5424993D4EA59864C /* Headers */,
@@ -320,20 +320,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66850EB384180E040961F53A63259FD0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9AFAFAF332462F3D1F3BBE71CDC004A /* UIViewController+isModal-dummy.m in Sources */,
-				A58C129A17A71CCB10C5C1344C88B6EC /* UIViewControllerisModal.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6913EFCE5C604E98CFC2DB42D0CAFE6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2FAB0FF9A898162E60A235EF4EDDE026 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BEC01B2C48D6CCDAF306B56757A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970B96263186FAFBB770F734A31CCDC /* UIViewController+isModal-dummy.m in Sources */,
+				E7B75D86DEBF68661F20BB73C1582322 /* UIViewController+isModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
